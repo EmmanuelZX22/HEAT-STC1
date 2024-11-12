@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+header.abajo{
+    background: #00aeff;
+    padding: 15px 20px;
+}
+header .logo{
+    cursor: pointer;
+}
+header .logo img{
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+/* navar no novible */
+.navar1{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+    background: #00aeff;
+    padding: 15px 20px;
+}
+
+
+/*Logo 2 */
+
+header .logo2 {
+    display: flex; /* Para alinear elementos hijos verticalmente */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+header .logo2 img {
+    height: 50px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+header .logo2 img:hover {
+    transform: scale(1.2);
+}
+
+/* Inicio de navar */
+
+header .logo img:hover{
+    transform: scale(1.2);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+header .link li:hover{
+    transform: scale(1.1);
+}
+header .link li a:hover{
+    color: black;
+}
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/HOTEL\ MAR\ Y\ TIERRA\(1\).png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.img1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.zona2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+header.abajo .logo,
+header.abajo ul li a{
+    color: #000;
+}
+header .abajo .link li a:hover{
+    color: white;
+}
+.center{
+    text-align: center;
+    text-decoration: none; /* Elimina cualquier subrayado de enlace */
+    color: inherit; /* Usa el color de texto predeterminado */
+    cursor: default; /* Restablece el cursor a su valor predeterminado */
+}
+
+.card {
+    margin: 10px; /* Ajusta el valor de margen según tus preferencias */
+  }
+.card-img-top {
+    height: 300px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen para cubrir todo el espacio sin distorsionarla */
+}
+
+footer
+  {
+      float: left;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      box-sizing: border-box;
+      border-top: 2px solid #000;
+      background-color: #00aeff;
+      color: black;
+      text-align: center;
+      padding-top: 10px;;
+  }
+.justificado{
+    text-align: justify;
+  }
+
+/*Estrellas*/
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px; /* Margen general alrededor de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-header {
+    background-color: #00aeff;;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.card-body {
+    flex: 1;
+    margin-right: 20px; /* Margen a la derecha para separar la tarjeta de la pantalla */
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px; /* Margen a la derecha para separar la tarjeta de la pantalla */
+}
+
+.rating {
+    font-size: 24px;
+}
+
+.star {
+    color: #00aeff; /* Color de estrella amarilla */
+}
+
+.story {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
